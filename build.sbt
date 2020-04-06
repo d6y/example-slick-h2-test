@@ -6,7 +6,8 @@ scalaVersion := "2.13.1"
 
 scalacOptions ++= Seq(
   "-deprecation",
-  "-encoding", "UTF-8",
+  "-encoding",
+  "UTF-8",
   "-unchecked",
   "-feature",
   "-language:implicitConversions",
@@ -17,9 +18,8 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "com.typesafe.slick" %% "slick"           % "3.3.2",
-  "com.h2database"      % "h2"              % "1.4.200",
-  "ch.qos.logback"      % "logback-classic" % "1.2.3",
-  "org.scalatest"      %% "scalatest"       % "3.1.1" % "test",
+  "com.typesafe.slick" %% "slick" % "3.3.2",
+  "com.h2database" % "h2" % "1.4.200",
+  "ch.qos.logback" % "logback-classic" % "1.2.3",
+  "org.scalatest" %% "scalatest" % "3.1.1" % "test"
 )
-
